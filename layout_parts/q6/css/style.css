@@ -3,14 +3,14 @@
 /* 回答はここに書いてね */
 /* q6-1 table */
 .text-align-box {
-  background-color: #e6f2ff;
-  width: 90px;
-  padding: 10px;
   text-align: center; 
 }
 
 .text-align {
-  display: ;
+  padding: 10px;
+  background-color: #e6f2ff;
+  width: 90px;
+  display: inline-block;
 }
 /* q6-2 margin */
 
@@ -24,14 +24,19 @@
 
 /* q6-table */
 .table {
-  display: inline-block;
-  background-color: #fff;
+  display: table;
+}
+
+.table-box {
+  display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 
 .table_text {
-  padding: 10px 10px;
-  display: table-cell;
+  padding: 10px;
+  background-color: #fff;
+  display: inline;
 }
 
 /* q6-flex */
