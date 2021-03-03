@@ -71,13 +71,16 @@
   z-index: 8;
 }
 
-/* .first::before {
+.first::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
   background-color: #ffefd3;
-  left: 200px;
-  top: 120px;
-  width: 200px;
-  height: 200px;
-} */
+  z-index: 9;
+}
 
 .ninth {
   background-color: #2b69a3;
