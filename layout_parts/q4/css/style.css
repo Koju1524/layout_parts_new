@@ -3,19 +3,26 @@
 /* 回答はここに書いてね */
 .main {
   background-color: #ecf1f2;
+  padding: 20px 20px;
+}
+
+.main-contents:last-child {
+  margin-bottom: 0;
 }
 
 .main-contents {
   display: table;
   width: 100%;
-  padding: 20px;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
+
+
 
 .main-content {
   display: table-cell;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .orange {

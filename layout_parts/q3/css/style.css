@@ -7,23 +7,29 @@
   width: 100%;
 }
 
-tr:first-child,td:first-child {
+th {
   background-color: #2244aa;
   color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 10px;
+  border: solid #dedede 1px;
 }
 
-tr:last-child {
-  border-top: dashed #000 2px;
+td {
+  border: solid #dedede 1px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
 }
 
 tr:nth-child(3),tr:nth-child(5) {
   background-color: #ecf1f2;
 }
 
-td {
-  border: solid #dedede 1px;
-  padding: 10px;
-  text-align: center;
+tr:last-child {
+  border-top: dashed #000 2px;
 }
 
 /* 回答はここに書いてね */

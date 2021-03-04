@@ -17,12 +17,12 @@
   background-color: #eff3f4;
 }
 
-.image {
+.image-left {
   margin: 0 20px 10px 0;
   float: left;
 }
 
-.image1 {
+.image-right {
   margin: 0 0 10px 20px;
   float: right;
 }
