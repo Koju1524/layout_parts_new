@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-th {
+.table th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
@@ -16,20 +16,22 @@ th {
   border: solid #dedede 1px;
 }
 
-td {
+.table td {
   border: solid #dedede 1px;
   padding: 10px;
-  font-size: 18px;
   text-align: center;
   line-height: 22px;
 }
 
-tr:nth-child(3),tr:nth-child(5) {
+.table tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
+.table tbody tr:last-child {
+  border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */

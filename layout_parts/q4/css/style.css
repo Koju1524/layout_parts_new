@@ -3,21 +3,19 @@
 /* 回答はここに書いてね */
 .main {
   background-color: #ecf1f2;
-  padding: 20px 20px;
+  padding: 20px;
 }
 
-.main-contents:last-child {
-  margin-bottom: 0;
+.main-contents:first-child {
+  margin-top: 0;
 }
 
 .main-contents {
   display: table;
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
-
-
 
 .main-content {
   display: table-cell;
