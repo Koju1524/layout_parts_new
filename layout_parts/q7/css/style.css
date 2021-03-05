@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-/* Q7-1 floatでの横並び */
-
 /* common style */
 .text {
   width: 225px;
@@ -18,16 +15,13 @@
   clear: both;
 }
 
-.left {
-  float: left;
-}
-
-.right{
+.float {
   float: left;
   margin-left: 50px;
 }
 
-.left:first-child {
+.float:first-child,
+.inlineblock-text:first-child {
   margin-left: 0;
 }
 
@@ -52,10 +46,6 @@
   margin-left: 50px;
 }
 
-.inlineblock-text:first-child {
-  margin-left: 0;
-}
-
 .inlineblock-box {
   font-size: 0;
 }
@@ -64,10 +54,6 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
-}
-
-.flex-text {
-  box-sizing: border-box;
 }
 /* Q7-5 inline-blockとmarginでの横並び  */
 .is-stable {
@@ -83,10 +69,6 @@
   padding-left: 350px;
   box-sizing: border-box;
   vertical-align: top;
-}
-
-.container .main {
-  font-size: 0;
 }
 
 .q7_text {

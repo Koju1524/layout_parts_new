@@ -42,11 +42,6 @@
 .trans:hover .trans_desc {
   bottom: 0;
 }
-
-.image:hover {
-  position: absolute;
-  transition:all .5s;
-}
 /* /Q8-2 animation  */
 .circle {
   width: 100px;
