@@ -2,4 +2,94 @@
 
 /* 回答はここに書いてね */
 
+/* Q7-1 floatでの横並び */
+
+/* common style */
+.text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Q7-1 floatでの横並び */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right{
+  float: left;
+  margin-left: 50px;
+}
+
+.left:first-child {
+  margin-left: 0;
+}
+
+/* Q7-2 tableでの横並び */
+.table {
+  display: table;
+}
+
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.table-box:first-child {
+  padding-left: 0;
+}
+/* Q7-3 inline-blockでの横並び */
+.inlineblock-text { 
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.inlineblock-text:first-child {
+  margin-left: 0;
+}
+
+.inlineblock-box {
+  font-size: 0;
+}
+/* Q7-4 flexでの横並び */
+.flex-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-text {
+  box-sizing: border-box;
+}
+/* Q7-5 inline-blockとmarginでの横並び  */
+.is-stable {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.is-flexible {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.container .main {
+  font-size: 0;
+}
+
+.q7_text {
+  font-size: 16px;
+}
 /* 回答はここに書いてね */

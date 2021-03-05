@@ -77,8 +77,8 @@
 .eighth::after {
   position: absolute;
   content: "";
-  left: 80px;
-  bottom: 80px;
+  right: 0;
+  top: 0;
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
